@@ -1,0 +1,98 @@
+/* BitcoinWidget.css */
+.bitcoin-widget {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-name p {
+    margin: 0;
+    font-size: 24px;
+    margin-left: 8px;
+  }
+  
+  .middle {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .middle h2 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  .dropdown-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    top: 100%;
+    left: 0; 
+    z-index: 1;
+  }
+  
+  .buy-button,
+  .sell-button {
+    flex: 1;
+    padding: 12px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 8px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none; 
+    transition: background-color 0.2s ease; 
+  }
+  
+  .buy-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .sell-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .current-value {
+    font-size: 18px;
+    opacity: 0.7;
+  }
+  
+  .profit-box {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import MobileHeader from './MobileHeader';
+import BitcoinWidget from './BitcoinWidget';
+import CryptoDashboard from './CryptoDashboard.js';
+import WidgetButton from './WidgetButton.js';
+import Footer from './Footer.js';
+import './App.css'; // You can create this CSS file to style the entire app
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <MobileHeader />
+      <div className="contentApp">
+      <BitcoinWidget />
+      <CryptoDashboard />
+      <WidgetButton />
+      </div>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;

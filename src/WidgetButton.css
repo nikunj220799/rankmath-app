@@ -1,0 +1,37 @@
+.widget-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.crypto-widget {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-placeholder {
+  width: 60px;
+  height: 60px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.action {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+

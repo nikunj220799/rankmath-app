@@ -1,0 +1,19 @@
+/* Footer.css */
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+  }
+  .footer-icons svg {
+    color: #cacaca;
+  }
+
+  .footer-icons svg:first-child {
+    color: #000;
+  }
+  
